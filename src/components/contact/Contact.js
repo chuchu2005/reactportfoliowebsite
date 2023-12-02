@@ -9,7 +9,7 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    alert("Your mail was successfully sent");
+    alert("Your mail was successfully sent to Peter :) ");
     e.preventDefault();
     emailjs.sendForm('ahmad.dev', 'template_4o0m3kr', form.current, 'fVrI6IsoPEo41b4re');
     e.target.reset();
