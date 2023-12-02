@@ -94,7 +94,7 @@ const Bio = () => {
             “Am A Very Skilled Frontend <span className="fade">Developer</span> Coversant {" "}
             <span className="fade">With </span> HTML ,CSS React JS {" "}
             <span className="fade">And </span> Many More. &nbsp;
-            <span className="fade">Am </span> Open For Jobs ”
+            <span className="fade">Am </span> Open For Jobs also ”
           </h1>
           <p>
             Peter Okafor &emsp;
