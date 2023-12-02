@@ -91,9 +91,9 @@ const Bio = () => {
             data-aos="fade-up"
             data-aos-once="true"
           >
-            “Boss, Na your <span className="fade">hand</span> I dey o, make{" "}
-            <span className="fade">Sapa</span> no go choke{" "}
-            <span className="fade">me</span> for throat. &nbsp;
+            “Am A Very Skilled Frontend <span className="fade">Developer</span> Coversant {" "}
+            <span className="fade">Sapa</span> with HTML ,CSS JS {" "}
+            <span className="fade">me</span> AND REACT JS. &nbsp;
             <span className="fade">Abeg</span> Hire me”
           </h1>
           <p>
