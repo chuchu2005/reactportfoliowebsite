@@ -30,8 +30,8 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      link: "https://courses.pearsoftwares.com.ng",
-      title: "An LMS Site For Elearning",
+      link: "https://hawkit.ng",
+      title: "A Money Making Website",
       onLinkClick: "View Design",
     },
     {
@@ -42,7 +42,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      link: "https://pearsoftwares.com.ng",
+      link: "https://apptomatch.com",
       title: "A Business Website",
       onLinkClick: "View live website",
     },
