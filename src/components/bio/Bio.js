@@ -32,11 +32,11 @@ const Bio = () => {
             data-aos-once="true"
           ></div>
           <a
-            href="https://github.com/chuchu2005"
+            href="https://www.linkedin.com/in/peterokafor/"
             rel="noreferrer"
             target="_blank"
           >
-            View my GitHub Profile
+            View my Linkedin Profile
             <img src={github} alt="github"></img>
           </a>
         </div>
@@ -92,7 +92,7 @@ const Bio = () => {
             data-aos-once="true"
           >
             “Am A Very Skilled Frontend <span className="fade">Developer</span> Coversant {" "}
-            <span className="fade">With </span> HTML ,CSS React JS {" "}
+            <span className="fade">With </span> NextjS ,Tailwind CSS, React JS {" "}
             <span className="fade">And </span> Many More. &nbsp;
             <span className="fade">Am </span> Open For Jobs also ”
           </h1>
@@ -111,7 +111,7 @@ const Bio = () => {
             data-aos="fade-up"
           >
             I am a Software Engineer with knowledge in using the core technologies
-            of the web - <span className="fade">HTML, CSS and JavaScript</span> - in
+            of the web - <span className="fade">NextJs, Tailwind CSS and React JavaScript</span> - in
             building maintable, scalable and accessible websites.
           </li>
           <li
@@ -119,8 +119,8 @@ const Bio = () => {
           >
             Using CSS libraries and JavaScript frameworks in building functional websites,
             which includes but is not limited to using tools like{" "}
-            <span className="fade"> Bootstrap CSS</span> and{" "}
-            <span className="fade">React.Js</span>.
+            <span className="fade"> Tailwind CSS</span> and{" "}
+            <span className="fade">ShadCn Libraries</span>.
           </li>
           <li
             data-aos="fade-up"
@@ -135,7 +135,7 @@ const Bio = () => {
             data-aos="fade-up"
           >
             Proficiency in using industry standard design
-            principles in creating user front and centered UI with 2+ years of experience
+            principles in creating user front and centered UI with 6+ years of experience
             in <span className="fade">User Interface</span> and{" "}
             <span className="fade">experience design</span>.
           </li>
