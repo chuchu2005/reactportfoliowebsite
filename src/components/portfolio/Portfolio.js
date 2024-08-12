@@ -46,6 +46,12 @@ const Portfolio = () => {
       title: "A Business Website",
       onLinkClick: "View live website",
     },
+       {
+      id: 6,
+      link: "https://learntihm.com",
+      title: "Learnrithm AI Landing Page",
+      onLinkClick: "View Design",
+    },
   ];
 
   return (
