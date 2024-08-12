@@ -5,7 +5,7 @@ import excellencePerk from "../../icons/excellence.png";
 import speedPerk from "../../icons/speed.png";
 import qualityPerk from "../../icons/quality.png";
 import teamPlayPerk from "../../icons/team.png";
-import resumeFile from "../../files/Resume.pdf";
+import resumeFile from "../../files/Peter Genesis.pdf";
 import { MdOutlineQrCode2 } from "react-icons/md";
 import Aos from "aos";
 
