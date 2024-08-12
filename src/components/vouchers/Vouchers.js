@@ -57,7 +57,7 @@ const Vouchers = () => {
                 </p>
                 <article className="name">
                   <h2>Lead UI Designer</h2>
-                  <p className="fade-dark">OPPO Technologies</p>
+                  <p className="fade-dark">Oopena Technologies</p>
                 </article>
               </div>
               <h1>"</h1>
@@ -70,7 +70,7 @@ const Vouchers = () => {
                 <img src={voucher2} alt="voucher 1"></img>
                 <h2>Ella Carlton</h2>
                 <p>
-                  Getting Developers in the diverse pool of Techies can be exhausting, but{" "}<span className="fade-dark">Ahmad</span>
+                  Getting Developers in the diverse pool of Techies can be exhausting, but{" "}<span className="fade-dark">Peter</span>
                   {" "}made me confident in {" "}<span className="fade-dark">his tone and actions{" "}</span>
                   and <span className="fade-dark">delivered before deadline</span> while <span className="fade-dark">implementing
                   our company's guidelines</span>.
