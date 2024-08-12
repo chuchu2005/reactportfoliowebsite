@@ -52,6 +52,18 @@ const Portfolio = () => {
       title: "Learnrithm AI Landing Page",
       onLinkClick: "View Design",
     },
+       {
+      id: 7,
+      link: "https://aiteacher.learnrithm.com",
+      title: "An Ai Powered Teacher to Help Srudents Learn",
+      onLinkClick: "View Design",
+    },
+       {
+      id: 8,
+      link: "https://quiz.learnrithm.com",
+      title: "An Ai exam preperar, It prepares you for your exams with tailored AI powered questions",
+      onLinkClick: "View Design",
+    },
   ];
 
   return (
