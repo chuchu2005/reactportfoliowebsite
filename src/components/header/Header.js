@@ -34,7 +34,7 @@ const Header = () => {
         >
           <span className="fade">Hi</span>, I'm Peter Okafor;
           <br />A Top-Rated Full-Stack Engineer &nbsp;
-          <span className="fade">&</span> Startup Founder
+          <span className="fade">&</span> VC-Backed Startup Founder
         </h1>
 
         <p
