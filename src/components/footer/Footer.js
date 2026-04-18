@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__social">
         <a
-          href="http://twitter.com/peterlovescode"
+          href="https://x.com/_peterokafor"
           target="_blank"
           rel="noreferrer"
         >
@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="http://instagram.com/Okaforpeter_chukwuemeka"
+          href="https://instagram.com/_peterokafor"
           target="_blank"
           rel="noreferrer"
         >

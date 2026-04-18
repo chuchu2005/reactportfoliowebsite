@@ -11,7 +11,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     alert("Your mail was successfully sent to Peter :) ");
     e.preventDefault();
-    emailjs.sendForm('ahmad.dev', 'template_4o0m3kr', form.current, 'fVrI6IsoPEo41b4re');
+    emailjs.sendForm('service_seabezf', 'template_if6gth7', form.current, 'F6Kc-vVFz9M207yr5');
     e.target.reset();
   }
 
@@ -26,7 +26,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="contact__header">
         <h1>Work with Peter</h1>
-        <h2>Trust me, he's loads of fun to work with</h2>
+        <h2>I'm currently taking on a few select projects — let's chat before my schedule fills up!</h2>
       </div>
 
       <div className="contact__details">

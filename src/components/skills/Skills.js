@@ -55,13 +55,34 @@ const Skills = () => {
       for better user experience, using the mobile first approach for inclusivity and to
       ensure nothing breaks.`,
     },
+    {
+      id: 6,
+      title: "Mobile App Development",
+      image: skillImage4,
+      info: `Building cross-platform iOS and Android applications with React Native
+      and Expo, from development through App Store & Google Play deployment.`,
+    },
+    {
+      id: 7,
+      title: "Backend Development",
+      image: skillImage4,
+      info: `Designing and building scalable RESTful APIs with Node.js and Express.js,
+      with database integration using MongoDB and PostgreSQL.`,
+    },
+    {
+      id: 8,
+      title: "Full-Stack Architecture",
+      image: skillImage4,
+      info: `Architecting end-to-end applications with Next.js, implementing SSR,
+      API routes, authentication, and deployment on cloud platforms like Vercel and AWS.`,
+    },
   ];
 
   return (
     <section id="skills" className="skills">
       <div className="skills__header">
         <h1>My Special Skills</h1>
-        <h2>Things I can do that will blow your mind</h2>
+        <h2>Cool tools I use to build great apps</h2>
       </div>
 
       <img src={skillsProfile} alt="skills profile" data-aos="fade-in"></img>

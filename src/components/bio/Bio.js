@@ -5,7 +5,7 @@ import excellencePerk from "../../icons/excellence.png";
 import speedPerk from "../../icons/speed.png";
 import qualityPerk from "../../icons/quality.png";
 import teamPlayPerk from "../../icons/team.png";
-import resumeFile from "../../files/Peter Genesis.pdf";
+import resumeFile from "../../files/PETER OKAFOR CV.pdf";
 import { MdOutlineQrCode2 } from "react-icons/md";
 import Aos from "aos";
 
@@ -91,14 +91,14 @@ const Bio = () => {
             data-aos="fade-up"
             data-aos-once="true"
           >
-            “Am A Very Skilled Frontend <span className="fade">Developer</span> Coversant {" "}
-            <span className="fade">With </span> NextjS ,Tailwind CSS, React JS {" "}
-            <span className="fade">And </span> Many More. &nbsp;
-            <span className="fade">Am </span> Open For Jobs also ”
+            “I don't just write <span className="fade">code</span> — I build {" "}
+            <span className="fade">apps </span> that people love to use, {" "}
+            <span className="fade">startups </span> that get funded, and {" "}
+            <span className="fade">projects </span> that win awards.”
           </h1>
           <p>
             Peter Okafor &emsp;
-            <span className="fade small">Front End Web Developer</span>
+            <span className="fade small">Full-Stack Engineer &bull; Startup Founder &bull; Forbes BLK</span>
           </p>
         </div>
       </article>
@@ -110,42 +110,36 @@ const Bio = () => {
           <li
             data-aos="fade-up"
           >
-            I am a Software Engineer with knowledge in using the core technologies
-            of the web - <span className="fade">NextJs, Tailwind CSS and React JavaScript</span> - in
-            building maintable, scalable and accessible websites.
+            I am a Full-Stack Engineer with <span className="fade">over 8 years of experience</span> building
+            websites and mobile apps for iOS and Android using{" "}
+            <span className="fade">React, Next.js, and Node.js</span>.
           </li>
           <li
             data-aos="fade-up"
           >
-            Using CSS libraries and JavaScript frameworks in building functional websites,
-            which includes but is not limited to using tools like{" "}
-            <span className="fade"> Tailwind CSS</span> and{" "}
-            <span className="fade">ShadCn Libraries</span>.
+            I was the <span className="fade">CTO at App To Match</span>, where I led the tech team and
+            built apps that thousands of people use every single day.
           </li>
           <li
             data-aos="fade-up"
           >
-            Collaborating with team members using Version Control Systems (VCS)
-            like <span className="fade">Git</span> and{" "}
-            <span className="fade">GitHub</span>, and writing{" "}
-            <span className="fade">clean code</span> for readability and code
-            debugging.
+            I am the <span className="fade">CEO and Founder of Learnrithm AI</span> &mdash; a
+            startup backed by <span className="fade">Supercharger Ventures and Plug-in Ventures</span>.
+            We build AI tools to help students learn better.
           </li>
           <li
             data-aos="fade-up"
           >
-            Proficiency in using industry standard design
-            principles in creating user front and centered UI with 6+ years of experience
-            in <span className="fade">User Interface</span> and{" "}
-            <span className="fade">experience design</span>.
+            I am a <span className="fade">Forbes BLK member</span>, a 5-time Best Programmer of the Year,
+            a Google Campus Ambassador, and a <span className="fade">5-time Hackathon Winner</span>.
+            I know how to solve hard problems fast.
           </li>
           <li
             data-aos="fade-up"
           >
-            Designing for <span className="fade">Accessibility</span> and{" "}
-            <span className="fade">Inclusivity</span> to ensure all users’ needs
-            are considered during the design process and keeping it in mind
-            through the development and production stage.
+            I know how to build a whole project from start to finish &mdash; covering{" "}
+            <span className="fade">TypeScript, Tailwind CSS, databases like MongoDB</span>, and putting the
+            final app on the web, Apple App Store, and Google Play Store.
           </li>
         </ul>
       </article>

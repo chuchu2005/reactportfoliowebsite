@@ -43,34 +43,40 @@ const Portfolio = () => {
     {
       id: 5,
       link: "https://apptomatch.com",
-      title: "A Business Website",
+      title: "App To Match: A tech company that builds high-quality websites and fast MVPs for new startups and clients.",
       onLinkClick: "View live website",
     },
        {
       id: 6,
-      link: "https://learntihm.com",
-      title: "Learnrithm AI Landing Page",
-      onLinkClick: "View Design",
+      link: "https://learnrithm.com",
+      title: "Learnrithm AI: An advanced AI tool that helps students learn better, featuring an AI teacher and exam preparer.",
+      onLinkClick: "View live website",
     },
-       {
+    {
       id: 7,
-      link: "https://aiteacher.learnrithm.com",
-      title: "An Ai Powered Teacher to Help Srudents Learn",
-      onLinkClick: "View Design",
+      link: "https://apps.apple.com/ng/app/blood-pressure-level-checker/id6462374701",
+      title: "Blood Pressure Level Checker: A mobile app built to securely track health data using React Native and Express.js.",
+      onLinkClick: "View on App Store",
     },
-       {
+    {
       id: 8,
-      link: "https://quiz.learnrithm.com",
-      title: "An Ai exam preperar, It prepares you for your exams with tailored AI powered questions",
-      onLinkClick: "View Design",
+      link: "https://apps.apple.com/ng/app/syncspace/id408672838",
+      title: "SyncSpace: A powerful iOS application bringing smooth, real-time collaboration tools directly to mobile users.",
+      onLinkClick: "View on App Store",
     },
+    {
+      id: 9,
+      link: "https://www.kickresume.com/en/resume-checker/",
+      title: "Kickresume AI Checker: A smart resume checking tool powered by AI to help professionals craft the perfect CV.",
+      onLinkClick: "View live website",
+    }
   ];
 
   return (
     <section id="portfolio" className="portfolio">
       <div className="portfolio__header">
         <h1>My Portfolio</h1>
-        <h2>10+ projects in Design & Web Development</h2>
+        <h2>Real products, real users, real impact</h2>
       </div>
 
       <div className="projects" data-aos="fade-up" data-aos-once="true">

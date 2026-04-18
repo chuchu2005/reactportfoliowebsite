@@ -32,9 +32,9 @@ const Header = () => {
           data-aos-easing="ease"
           data-aos-once="true"
         >
-          <span className="fade">Hi</span>, Meet Peter Okafor;
-          <br />A Meta certified Front End Web Developer &nbsp;
-          <span className="fade">&</span> Google Certified UI / UX Designer
+          <span className="fade">Hi</span>, I'm Peter Okafor;
+          <br />A Top-Rated Full-Stack Engineer &nbsp;
+          <span className="fade">&</span> Startup Founder
         </h1>
 
         <p
@@ -43,9 +43,9 @@ const Header = () => {
           data-aos-easing="ease"
           data-aos-once="true"
         >
-          Building designs centered around accessibility and inclusivity, and
-          writing codes for developing User Interfaces that speaks the language
-          of your Brand.
+          I build apps that people love to use. From websites to iOS and Android apps, 
+          I turn great ideas into real products. I'm a Forbes BLK member, a 5x hackathon winner, 
+          and a founder of a funded startup. Let's build something awesome together!
         </p>
 
         <div

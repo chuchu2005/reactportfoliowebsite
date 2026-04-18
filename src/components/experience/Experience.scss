@@ -1,0 +1,186 @@
+@import "../../variables";
+@import "../../mixins";
+@import "../../animation";
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0 5rem;
+  gap: 3rem;
+  background: $white;
+  color: $black;
+
+  @include breakpoint-up(large) {
+    padding: 4rem 0 6rem;
+    gap: 4rem;
+  }
+
+  &__header {
+    h1 {
+      font-size: 1.25rem;
+      font-weight: $semi_bold;
+      letter-spacing: -0.32px;
+
+      @include breakpoint-up(large) {
+        font-size: 2rem;
+        line-height: 3rem;
+      }
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: $medium;
+      letter-spacing: -0.32px;
+      color: $dark_grey;
+      margin-top: -0.5rem;
+
+      @include breakpoint-up(large) {
+        font-size: 1.475rem;
+      }
+    }
+  }
+
+  &__timeline {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2rem;
+    gap: 0;
+
+    @include breakpoint-up(medium) {
+      padding: 0 4rem;
+    }
+
+    @include breakpoint-up(large) {
+      padding: 0 10rem;
+    }
+  }
+
+  &__card {
+    display: flex;
+    align-items: stretch;
+    text-align: left;
+    gap: 1.25rem;
+
+    &__indicator {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0.4rem;
+    }
+
+    &__dot {
+      width: 0.875rem;
+      height: 0.875rem;
+      min-height: 0.875rem;
+      border-radius: 50%;
+      background: $dark_grey;
+      border: 2px solid $dark_grey;
+      z-index: 1;
+      transition: all 300ms ease;
+    }
+
+    &__line {
+      width: 2px;
+      flex: 1;
+      background: $light_grey;
+    }
+
+    &--current {
+      .experience__card__dot {
+        background: $black;
+        border-color: $black;
+        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);
+      }
+
+      .experience__card__content {
+        background: $black;
+        color: $white;
+
+        h4 {
+          color: $dark_grey;
+        }
+
+        .experience__card__period {
+          background: rgba(255, 255, 255, 0.15);
+          color: $white;
+        }
+      }
+    }
+
+    &__content {
+      flex: 1;
+      background: $grey;
+      border-radius: 1rem;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: all 300ms ease;
+
+      &:hover {
+        transform: translateX(4px);
+      }
+
+      h3 {
+        font-size: 1rem;
+        font-weight: $semi_bold;
+        margin: 0;
+
+        @include breakpoint-up(large) {
+          font-size: 1.25rem;
+        }
+      }
+
+      h4 {
+        font-size: 0.875rem;
+        font-weight: $medium;
+        color: $dark_grey;
+        margin: 0.25rem 0 0.75rem;
+
+        @include breakpoint-up(large) {
+          font-size: 1rem;
+        }
+      }
+
+      p {
+        font-size: 0.875rem;
+        font-weight: $regular;
+        line-height: 1.4rem;
+        margin: 0;
+
+        @include breakpoint-up(large) {
+          font-size: 1rem;
+          line-height: 1.6rem;
+        }
+      }
+    }
+
+    &__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    &__period {
+      font-size: 0.75rem;
+      font-weight: $medium;
+      background: $light_grey;
+      color: $black;
+      padding: 0.25rem 0.75rem;
+      border-radius: 2rem;
+
+      @include breakpoint-up(large) {
+        font-size: 0.875rem;
+      }
+    }
+
+    &:last-child {
+      .experience__card__line {
+        display: none;
+      }
+    }
+  }
+}

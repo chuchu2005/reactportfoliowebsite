@@ -65,11 +65,11 @@ const Nav = () => {
       </a>
 
       <div className="nav__link">
+        <a href={goTo} onClick={() => setGoTo("#experience")}>
+          Experience
+        </a>
         <a href={goTo} onClick={() => setGoTo("#skills")}>
           Skills
-        </a>
-        <a href={goTo} onClick={() => setGoTo("#vouchers")}>
-          Vouchers
         </a>
         <a href={goTo} onClick={() => setGoTo("#contact")}>
           Contact Me
@@ -89,13 +89,16 @@ const Nav = () => {
               <a href="#bio">Bio</a>
             </li>
             <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#achievements">Achievements</a>
+            </li>
+            <li>
               <a href="#skills">Skills</a>
             </li>
             <li>
               <a href="#arsenal">Arsenal</a>
-            </li>
-            <li>
-              <a href="#vouchers">Vouchers</a>
             </li>
             <li>
               <a href="#contact">Contact Me</a>

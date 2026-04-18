@@ -4,6 +4,8 @@ import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";
 import Portfolio from "./components/portfolio/Portfolio";
 import Bio from "./components/bio/Bio";
+import Experience from "./components/experience/Experience";
+import Achievements from "./components/achievements/Achievements";
 import Arsenal from "./components/arsenal/Arsenal";
 import Skills from "./components/skills/Skills";
 import Vouchers from "./components/vouchers/Vouchers";
@@ -17,6 +19,8 @@ const App = () => {
       <Header />
       <Portfolio />
       <Bio />
+      <Experience />
+      <Achievements />
       <Skills />
       <Arsenal />
       <Vouchers />
