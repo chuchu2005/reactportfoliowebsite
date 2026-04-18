@@ -1,14 +1,18 @@
 import { React } from "react";
+import QRCode from "react-qr-code";
 import "../qrCode/QrCode.scss";
-import qrCode from "../../images/qr-code.svg";
 
 const QrCode = ({ closeQrCode }) => {
+  const cvUrl = `${window.location.origin}/PETER_OKAFOR_CV.pdf`;
+
   return (
       <div className="qrcode">
         <div className="qrcode__container">
-          <h1>Scan QR Code</h1>
+          <h1>Scan To Download CV</h1>
 
-          <img src={qrCode} alt="QR Code"></img>
+          <div style={{ background: 'white', padding: '16px', borderRadius: '8px', margin: 'auto' }}>
+            <QRCode value={cvUrl} size={180} />
+          </div>
 
         <button
           className="qrcode__container__button"
